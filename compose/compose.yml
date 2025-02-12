@@ -1,6 +1,6 @@
 services:
   frontend:
-    image: react-cart
+    image: leegeonmin/react-cart
     container_name: react-cart-container
     ports:
       - "80:80"
@@ -17,7 +17,7 @@ services:
     ports:
       - "18088:8088"
     networks:
-      - my-networka
+      - my-networks
     depends_on:
       - db
 
