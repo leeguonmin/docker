@@ -17,7 +17,7 @@ services:
     ports:
       - "18088:8088"
     networks:
-      - my-network
+      - my-networka
     depends_on:
       - db
 
